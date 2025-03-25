@@ -1,1 +1,9 @@
-create a next txt file
+git revert -- in this when we revert any bad commit id it removes the file from workspace(ls) and create a new ccommit id but when we push code to remote in commit history of remote rep we can still access bad file
+
+LIMITATIONS
+1)every time new commit id is created by revert increasing memory usage
+2)even after reverting file bad file still exist in commit history of remote rev  
+
+ 
+
+git reset -- in git reset the pointer reset to specific commit .the it of git reset is that new commit id is not created and visibility of bad file is also not present in commit history of remote rev
